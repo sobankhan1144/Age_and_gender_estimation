@@ -24,3 +24,12 @@ def age_group(age):
     else:
         return 8
 ```
+
+- Also change the dataset file paths accordingly in code here
+
+```
+train_df = pd.read_csv('/content/utk_final.csv') # for fgnet "/content/fgnet_with_age_groups.csv" 
+train_df['final_label'] = train_df['final_label'].astype(str)
+test_df = pd.read_csv('/content/fgnet_final_file.csv') # for fgnet "/content/fgnet_with_age_groups.csv" 
+test_df['final_label'] = test_df['final_label'].astype(str)
+```
