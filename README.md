@@ -2,7 +2,7 @@
 Age and Gender estimation on public dataset including wiki_imdb and FGnet
 All supporting files availabel in google drive link provided [here](https://drive.google.com/file/d/19zwMs4J41QyyAZgu-Cwgi2t3I2GUFxpi/view?usp=sharing)
 
-Age grouping can be adjusted in the notebook according to your liking 
+- Age grouping can be adjusted in the notebook according to your liking 
 ```
 def age_group(age):
     if age >=0 and age <=2:
